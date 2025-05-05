@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">UI Portfolio</a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Blog</a></li>
+                    <li><a href="#portfolio">Pages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <button id="hire-me-btn" class="btn btn-primary">Hire Me</button>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Blog</a></li>
+                <li><a href="#portfolio">Pages</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="mobile-hire-btn" class="btn btn-primary mobile-btn">Hire Me</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Hi, I'm Mercy Ochieng</h2>
+                    <h1>Software <span>Developer</span></h1>
+                    <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away!</p>
+                    <div class="hero-buttons">
+                        <button id="hero-hire-btn" class="btn btn-primary">Hire Me</button>
+                        <button id="portfolio-btn" class="btn btn-outline">My Portfolio</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="profile.2.jpg" alt="Mercy">
+                </div>
+            </div>
+        </div>
+
+        <!-- Side navigation -->
+        <div class="side-nav">
+            <button id="next-btn" aria-label="Next"><i class="fas fa-arrow-right"></i></button>
+            <button id="back-btn" aria-label="Back"><i class="fas fa-arrow-left"></i></button>
+            <button id="download-btn" aria-label="Download"><i class="fas fa-download"></i></button>
+            <button id="buy-btn" aria-label="Buy"><i class="fas fa-shopping-bag"></i></button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="pro1.jpg" alt="Mercy">
+                </div>
+                <div class="about-text">
+                    <h3 class="section-subtitle">MY BIOGRAPHY</h3>
+                    <h2 class="section-title">A Software Engineer Based In Nairobi, Kenya</h2>
+                    <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
+                    
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Mercy Ochieng</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">From:</span>
+                            <span class="info-value">Kenya, Nairobi</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">mercyochieng14@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone:</span>
+                            <span class="info-value">+254 700 250 542</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <p>Follow me on</p>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="about-buttons">
+                        <button id="about-hire-btn" class="btn btn-primary">Hire me</button>
+                        <button id="cv-download-btn" class="btn btn-secondary">Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title text-center">What I Do For You</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Coming up with creative and fully functioning web sites for any use.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App development</h3>
+                    <p>Building mobile applications for day to day use.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Taking captivating images of nature.</p>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="#" id="more-services-link" class="link-more">
+                    More Services
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="skills-content">
+                <div class="skills-images">
+                    <img src="skill.1.jpg" alt="Skills illustration" class="skills-img">
+                    <img src="skill.2.jpg" alt="Skills illustration" class="skills-img">
+                </div>
+
+                <div class="skills-text">
+                    <h3 class="section-subtitle">MY SKILLS</h3>
+                    <h2 class="section-title">My Featured Skills</h2>
+                    <p>I Specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work. And I always ready to impress the audience with my Creativity.</p>
+
+                    <div class="skills-bars">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">UI/UX Design</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Ideas & Technology</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Branding Design</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Responsive Web Design</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise-section">
+        <div class="container">
+            <div class="expertise-content">
+                <div class="expertise-services">
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="expertise-info">
+                                <h3>Web Development</h3>
+                                    <p>Design and build responsive, user-friendly websites using modern technologies like HTML, CSS, JavaScript, and backend frameworks. Develop dynamic web applications that solve real-world problems and provide seamless user experiences.</p>
+                                    </p>
+                            </div>
+                        </div>
+
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="expertise-info">
+                                <h3>Design Trends</h3>
+                                <p>Stay up-to-date with the latest design trends and techniques to create visually appealing and modern user interfaces.</p>
+                            </div>
+                        </div>
+
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="expertise-info">
+                                <h3>Research & Analysis</h3>
+                                <p>Use data-driven research and analysis to guide design and development decisions for better user engagement and business impact.</p>
+                            </div>
+                        </div>
+
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="expertise-info">
+                                <h3>Customer support</h3>
+                                <p>Deliver prompt, empathetic, and effective assistance to ensure customer satisfaction and loyalty across digital platforms.</p>
+                            </div>
+                        </div>
+
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="expertise-info">
+                                <h3>Responsive design</h3>
+                                <p>Create websites and applications that adapt seamlessly across devices and screen sizes for an optimal user experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="fas fa-file-image"></i>
+                            </div>
+                            <div class="expertise-info">
+                                <h3>PSD Design</h3>
+                                <p>Craft professional and layered PSD mockups for website and app designs, ready for development or client presentation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expertise-image">
+                    <img src="me.jpg" alt="Mercy Ochieng">
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>135</h3>
+                    <p>Finished Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h3>225</h3>
+                    <p>Working Hours</p>
+                </div>
+                <div class="stat-item">
+                    <h3>115</h3>
+                    <p>Online Support</p>
+                </div>
+                <div class="stat-item">
+                    <h3>272</h3>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title text-center">My Success Work</h2>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="logo.jpg" alt="Portfolio item 1">
+                </div>
+                <div class="portfolio-item">
+                    <img src="logo.2.jpg" alt="Portfolio item 2">
+                </div>
+                <div class="portfolio-item">
+                    <img src="logo.3.jpg" alt="Portfolio item 3">
+                </div>
+                <div class="portfolio-item">
+                    <img src="logo.4.jpg" alt="Portfolio item 4">
+                </div>
+                <div class="portfolio-item">
+                    <img src="logo.5.jpg" alt="Portfolio item 5">
+                </div>
+                <div class="portfolio-item">
+                    <img src="logo.jpg" alt="Portfolio item 6">
+                </div>
+            </div>
+
+            <div class="clients-section">
+                <div class="client-logos">
+                    <img src="david.jpeg" alt="Client 1">
+                    <img src="maya.jpg" alt="Client 2">
+                    <img src="meditation.jpg" alt="Client 3">
+                    <img src="sarah.jpeg" alt="Client 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Added) -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-center">Get In Touch</h2>
+            <p class="text-center contact-subtitle">Feel free to contact me for any project or collaboration</p>
+            
+            <div class="contact-form-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" id="submit-form" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="#">UI Portfolio</a>
+                </div>
+
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+254700250542</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>mercyochieng14@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Juja Road ,Nairobi KE</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 UI Portfolio. All Rights Reserved</p>
+                
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Google Plus"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="VK"><i class="fab fa-vk"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="shared.js"></script>
+    <script src="buttons.js"></script>
+</body>
+</html>
